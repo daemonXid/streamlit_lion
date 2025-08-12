@@ -1,0 +1,8 @@
+streamlit== 1.48.0
+pandas==2.3.1
+
+# 배포를 위해서 런타임
+
+# pip list
+pip freeze > requirements.txt # 현재 환경의 패키지 목록을 requirements.txt로 저장
+# pip list --format=freeze > requirements.txt # 최종형태
