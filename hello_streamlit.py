@@ -6,6 +6,7 @@ st.title("🎉 내 첫 번째 Streamlit 앱!")
 
 # 텍스트 추가
 st.write("안녕하세요! Streamlit으로 만든 웹 애플리케이션입니다.")
+st.write("오늘은 2025년 8월 12일입니다. 이 앱은 Streamlit을 사용하여 간단한 웹 애플리케이션을 만드는 방법을 보여줍니다.")
 
 # 버튼 추가
 if st.button("클릭해보세요!"):
