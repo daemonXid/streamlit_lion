@@ -6,3 +6,14 @@ pandas==2.3.1
 # pip list
 pip freeze > requirements.txt # 현재 환경의 패키지 목록을 requirements.txt로 저장
 # pip list --format=freeze > requirements.txt # 최종형태
+
+# 깃허브에 올리기
+# 1-개발
+# 2-git add 파일명 or git add .
+# 3-git commit -m "커밋 메시지"
+# 4-git push origin main    
+# 5-배포
+# 6-배포 후 pip install -r requirements.txt # requirements.txt에 명시
+# 7-배포 후 pip install streamlit -U # streamlit 최신버전으로 업데이트
+
+
